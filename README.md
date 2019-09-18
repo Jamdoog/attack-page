@@ -1,11 +1,11 @@
 # Attack monitor
 
-This web page will send webhook's to Discord on acknowldgement of an attack from your Full Time Hosting account. 
+This web page will send webhook's to Discord and an email on acknowldgement of an attack from your Full Time Hosting account. 
 It will then post the name of the server, the IP address, whether the attack has started or ended and finally the power in Gigabit.
 
 ## Getting Started
 
-1. Edit the script and put in your webhook (line 12)
+1. Edit the script and put in your webhook (line 47)
 2. Edit the switch statement and add in your own IP addresses. 
 3. Put your web address into the attack monitor on FTH (ex. https://attack.jamdoog.com)
 
@@ -13,6 +13,7 @@ It will then post the name of the server, the IP address, whether the attack has
 
 1. Web hosting (Not neccessarily from FTH), with PHP.
 2. A discord server with access to making a webhook.
+3. Composer && PHPMailer
 
 Ubuntu:
 
