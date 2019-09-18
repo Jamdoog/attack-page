@@ -13,7 +13,7 @@ It will then post the name of the server, the IP address, whether the attack has
 
 1. Web hosting (Not neccessarily from FTH), with PHP.
 2. A discord server with access to making a webhook.
-3. Composer && PHPMailer
+3. Composer && PHPMailer (OPTIONAL SEE FURTHER DOWN)
 
 Ubuntu:
 
@@ -26,6 +26,8 @@ Good LEMP setup (NGINX): https://www.digitalocean.com/community/tutorials/how-to
 
 Place the index.php file once modified into the root of your webhost (or the corresponding address that you want, anyway).
 For example: https://attack.jamdoog.com/index.php
+
+If you don't want the SMTP function, please check a previous commit without it included. If you do, please install Composer and PHPMailer. 
 
 ## Running the tests
 
